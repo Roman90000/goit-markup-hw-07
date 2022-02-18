@@ -1,4 +1,4 @@
-.main-nav {
+.header__main-nav {
   display: flex;
   align-items: center;
   padding-right: 15px;
@@ -12,11 +12,11 @@
   border-bottom: 1px solid #ececec;
 }
 
-.header-web {
+.header__web {
   color: var(--header-web);
 }
 
-.header-logo {
+.header__logo {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
@@ -30,14 +30,14 @@
   display: inline-block;
 }
 
-.icon-mail {
+.header__icon-mail {
   width: 16px;
   height: 12px;
   margin-right: 10px;
   fill: currentColor;
 }
 
-.icon-smartphone {
+.header__icon-smartphone {
   width: 10px;
   height: 16px;
   margin-right: 10px;
@@ -55,7 +55,7 @@
   position: relative;
 }
 
-.underline::after {
+.header__underline::after {
   content: "";
   display: block;
   width: 100%;
@@ -66,7 +66,7 @@
   top: 45px;
 }
 
-.link-icon {
+.header__link-icon {
   color: var(--color-icon-header);
   font-weight: 500;
   font-size: 14px;
@@ -85,17 +85,17 @@
   }
 }
 
-.contacts-nav {
+.header__contacts-nav {
   margin-left: auto;
   padding-right: 15px;
 }
 
-.header-item,
-.header-item-active {
+.header__item,
+.header__item--active {
   margin-right: 50px;
 }
 
-.title {
+.header__title {
   margin-right: 50px;
   display: flex;
   align-items: center;
@@ -106,20 +106,20 @@
   }
 }
 
-.header-item:last-child {
+.header__item:last-child {
   margin-right: 0px;
 }
 
-.header-item > a:hover,
-.header-item > a:focus {
+.header__item > a:hover,
+.header__item > a:focus {
   color: var(--color-link);
 }
 
-.header-item > a {
+.header__item > a {
   transition: color 250ms;
 }
 
-.header-item > a .link {
+.header__item > a .link {
   color: var(--primary-color-paragraph);
   font-weight: 500;
   font-size: 14px;
@@ -129,6 +129,6 @@
   display: inline-block;
 }
 
-.header-item-active > .link {
+.header__item--active > .link {
   color: var(--color-link);
 }

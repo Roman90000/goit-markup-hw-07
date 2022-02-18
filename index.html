@@ -16,28 +16,28 @@
 <body>
     <!-- Шапка -->
         <header class="header">
-            <div class="container main-nav">
-                <nav class="main-nav">
-                    <a class="header-logo" href="./index.html"><span class="header-web">Web</span>Studio</a>
+            <div class="container header__main-nav">
+                <nav class="header__main-nav">
+                    <a class="header__logo" href="./index.html"><span class="header__web">Web</span>Studio</a>
                     <ul class="list header-list">
-                        <li class="header-item-active"><a class="link underline" href="">Студия</a></li>
-                        <li class="header-item"><a class="link" href="./portfolio.html">Портфолио</a></li>
-                        <li class="header-item"><a class="link" href="">Контакты</a></li>
+                        <li class="header__item--active"><a class="link header__underline" href="">Студия</a></li>
+                        <li class="header__item"><a class="link" href="./portfolio.html">Портфолио</a></li>
+                        <li class="header__item"><a class="link" href="">Контакты</a></li>
                     </ul>
                 </nav>
                 
-                    <ul class="list contacts-nav">
-                        <li class="title">
-                            <a class="link-icon" href="mailto:info@devstudio.com">
-                            <svg class="icon-mail">
+                    <ul class="list header__contacts-nav">
+                        <li class="header__title">
+                            <a class="header__link-icon" href="mailto:info@devstudio.com">
+                            <svg class="header__icon-mail">
                                 <use href="./images/icons.svg#icon-mail"></use>
                             </svg>
                             info@devstudio.com</a>
                         </li>
                        
-                        <li class="title">
-                            <a class="link-icon" href="tel:+380961111111">
-                            <svg class="icon-smartphone">
+                        <li class="header__title">
+                            <a class="header__link-icon" href="tel:+380961111111">
+                            <svg class="header__icon-smartphone">
                                 <use href="./images/icons.svg#icon-smartphone"></use>
                             </svg>
                             +38 096 111 11 11</a>
@@ -53,8 +53,8 @@
     <main>
         <!-- Герой -->
             <section class="hero">
-                <h1 class="hero-title">Эффективные решения<br>для вашего бизнеса</h1>
-                <button type="button" class="hero-button" data-modal-open>Заказать услугу</button>
+                <h1 class="hero__title">Эффективные решения<br>для вашего бизнеса</h1>
+                <button type="button" class="hero__button" data-modal-open>Заказать услугу</button>
             
             </section>
                   
@@ -64,66 +64,66 @@
             <div class="container">
                 <h2 class="visually-hidden">Чем занимаются в WebStudio</h2> 
                 <ul class="list padding-list">
-                    <li class="list-heading">
-                        <div class="svg">
-                            <svg class="svg-antenna">
+                    <li class="list__heading">
+                        <div class="list__svg">
+                            <svg class="list__svg-antenna">
                                 <use href="./images/icons.svg#icon-antenna-1"></use>
                             </svg>
                         </div>
-                        <h2 class="heading">Внимание к деталям</h2>
-                        <p class="list-text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                        <h2 class="list__title">Внимание к деталям</h2>
+                        <p class="list__text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
                     </li>
-                    <li class="list-heading">
-                        <div class="svg">
-                            <svg class="svg-clock">
+                    <li class="list__heading">
+                        <div class="list__svg">
+                            <svg class="list__svg-clock">
                                 <use href="./images/icons.svg#icon-clock-1"></use>
                             </svg>
                         </div>
-                        <h2 class="heading">Пунктуальность</h2>
-                        <p class="list-text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                        <h2 class="list__title">Пунктуальность</h2>
+                        <p class="list__text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
                     </li>
-                    <li class="list-heading">
-                        <div class="svg">
-                            <svg class="svg-diagram">
+                    <li class="list__heading">
+                        <div class="list__svg">
+                            <svg class="list__svg-diagram">
                                 <use href="./images/icons.svg#icon-diagram-1"></use>
                             </svg>
                         </div>
-                        <h2 class="heading">Планирование</h2>
-                        <p class="list-text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                        <h2 class="list__title">Планирование</h2>
+                        <p class="list__text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
                     </li>
-                    <li class="list-heading">
-                        <div class="svg">
-                            <svg class="svg-astronaut">
+                    <li class="list__heading">
+                        <div class="list__svg">
+                            <svg class="list__svg-astronaut">
                                 <use href="./images/icons.svg#icon-astronaut-1"></use>
                             </svg>
                         </div>
-                        <h2 class="heading">Современные технологии</h2>
-                        <p class="list-text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                        <h2 class="list__title">Современные технологии</h2>
+                        <p class="list__text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
                     </li>
                 </ul>
             </div>  
         <div class="container">
-            <h2 class="photo-title">Чем мы занимаемся</h2>
-            <ul class="list padding-photo">
-                <li class="margin-img"><img src="./images/img1.jpg" alt="Разработка" 
+            <h2 class="photo__title">Чем мы занимаемся</h2>
+            <ul class="list padding-photo" photo>
+                <li class="photo__margin-img"><img src="./images/img1.jpg" alt="Разработка" 
                     width="370"/>
-                    <div class="img-info">
-                        <h3 class="info-img">Десктопные приложения</h3>
+                    <div class="photo__img-info">
+                        <h3 class="photo__info-img">Десктопные приложения</h3>
                     </div>
                     
                 </li>
-                <li class="margin-img"><img src="./images/img2.jpg" alt="Анализ"
+                <li class="photo__margin-img"><img src="./images/img2.jpg" alt="Анализ"
                     width="370"/>
-                    <div class="img-info">
-                        <h3 class="info-img">Мобильные приложения</h3>
+                    <div class="photo__img-info">
+                        <h3 class="photo__info-img">Мобильные приложения</h3>
                     </div>
                     
                     
                 </li>
-                <li class="margin-img"><img src="./images/img3.jpg" alt="Дизайн"
+                <li class="photo__margin-img"><img src="./images/img3.jpg" alt="Дизайн"
                     width="370"/>
-                    <div class="img-info">
-                        <h3 class="info-img">Дизайнерские решения</h3>
+                    <div class="photo__img-info">
+                        <h3 class="photo__info-img">Дизайнерские решения</h3>
                     </div>
                     
                 </li>
@@ -133,7 +133,7 @@
         <!-- Наша команда -->
         <section class="our-team">
             <div class="container padding-team">
-                <h2 class="photo-title">Наша команда</h2>
+                <h2 class="photo__title">Наша команда</h2>
                 <ul class="list">
                     <li class="pfoto-team">
                         <img src="./images/team1.jpg" alt="Член команды" 

@@ -3,38 +3,38 @@
   padding-bottom: 94px;
 }
 
-.svg {
+.list__svg {
   background-color: #f5f4fa;
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
 }
 
-.svg-antenna {
+.list__svg-antenna {
   width: 65.32px;
   height: 70px;
   margin: 25px 102.34px;
 }
 
-.svg-clock {
+.list__svg-clock {
   width: 66.96px;
   height: 70px;
   margin: 25px 101.5px;
 }
 
-.svg-diagram {
+.list__svg-diagram {
   width: 70px;
   height: 53.69px;
   margin: 33.2px 100px 33.11px 100px;
 }
 
-.svg-astronaut {
+.list__svg-astronaut {
   width: 70px;
   height: 70px;
   margin: 25px 100px;
 }
 
-.list-text {
+.list__text {
   color: var(--primary-color-paragraph);
   font-size: 14px;
   line-height: 1.71;
@@ -43,11 +43,11 @@
   width: 270px;
 }
 
-.list-heading:not(:last-child) {
+.list__heading:not(:last-child) {
   padding-right: 30px;
 }
 
-.heading {
+.list__title {
   color: var(--primary-color-title);
   font-weight: bold;
   font-size: 14px;
@@ -58,7 +58,7 @@
   margin-bottom: 10px;
 }
 
-.photo-title {
+.photo__title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -73,11 +73,11 @@
   position: relative;
 }
 
-.margin-img:not(:last-child) {
+.photo__margin-img:not(:last-child) {
   margin-right: 30px;
 }
 
-.img-info {
+.photo__img-info {
   width: 370px;
   height: 70px;
   background-color: rgba(47, 48, 58, 0.8);
@@ -87,7 +87,7 @@
   bottom: 94px;
 }
 
-.info-img {
+.photo__info-img {
   text-transform: uppercase;
   color: #ffffff;
   size: 14px;

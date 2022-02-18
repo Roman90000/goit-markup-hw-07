@@ -71,7 +71,7 @@ img {
   transform: scale(0);
 }
 
-.main-nav {
+.header__main-nav {
   display: flex;
   align-items: center;
   padding-right: 15px;
@@ -85,11 +85,11 @@ img {
   border-bottom: 1px solid #ececec;
 }
 
-.header-web {
+.header__web {
   color: var(--header-web);
 }
 
-.header-logo {
+.header__logo {
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
@@ -101,14 +101,14 @@ img {
   display: inline-block;
 }
 
-.icon-mail {
+.header__icon-mail {
   width: 16px;
   height: 12px;
   margin-right: 10px;
   fill: currentColor;
 }
 
-.icon-smartphone {
+.header__icon-smartphone {
   width: 10px;
   height: 16px;
   margin-right: 10px;
@@ -125,7 +125,7 @@ img {
   position: relative;
 }
 
-.underline::after {
+.header__underline::after {
   content: "";
   display: block;
   width: 100%;
@@ -136,7 +136,7 @@ img {
   top: 45px;
 }
 
-.link-icon {
+.header__link-icon {
   color: var(--color-icon-header);
   font-weight: 500;
   font-size: 14px;
@@ -149,45 +149,45 @@ img {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.link-icon:hover, .link-icon:focus {
+.header__link-icon:hover, .header__link-icon:focus {
   color: var(--color-link);
 }
 
-.contacts-nav {
+.header__contacts-nav {
   margin-left: auto;
   padding-right: 15px;
 }
 
-.header-item,
-.header-item-active {
+.header__item,
+.header__item--active {
   margin-right: 50px;
 }
 
-.title {
+.header__title {
   margin-right: 50px;
   display: flex;
   align-items: center;
   flex-direction: row-reverse;
 }
 
-.title:last-child {
+.header__title:last-child {
   margin-right: 0px;
 }
 
-.header-item:last-child {
+.header__item:last-child {
   margin-right: 0px;
 }
 
-.header-item > a:hover,
-.header-item > a:focus {
+.header__item > a:hover,
+.header__item > a:focus {
   color: var(--color-link);
 }
 
-.header-item > a {
+.header__item > a {
   transition: color 250ms;
 }
 
-.header-item > a .link {
+.header__item > a .link {
   color: var(--primary-color-paragraph);
   font-weight: 500;
   font-size: 14px;
@@ -196,7 +196,7 @@ img {
   display: inline-block;
 }
 
-.header-item-active > .link {
+.header__item--active > .link {
   color: var(--color-link);
 }
 
@@ -209,7 +209,7 @@ img {
   max-width: 1600px;
 }
 
-.hero-title {
+.hero__title {
   color: var(--primary-body-color);
   font-style: normal;
   font-weight: 900;
@@ -220,7 +220,7 @@ img {
   margin-bottom: 30px;
 }
 
-.hero-button {
+.hero__button {
   font-weight: bold;
   color: var(--primary-body-color);
   background-color: var(--color-link);
@@ -235,7 +235,7 @@ img {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.hero-button:hover {
+.hero__button:hover {
   background-color: var(--hero-button-hover);
 }
 
@@ -244,38 +244,38 @@ img {
   padding-bottom: 94px;
 }
 
-.svg {
+.list__svg {
   background-color: #f5f4fa;
   width: 270px;
   height: 120px;
   margin-bottom: 30px;
 }
 
-.svg-antenna {
+.list__svg-antenna {
   width: 65.32px;
   height: 70px;
   margin: 25px 102.34px;
 }
 
-.svg-clock {
+.list__svg-clock {
   width: 66.96px;
   height: 70px;
   margin: 25px 101.5px;
 }
 
-.svg-diagram {
+.list__svg-diagram {
   width: 70px;
   height: 53.69px;
   margin: 33.2px 100px 33.11px 100px;
 }
 
-.svg-astronaut {
+.list__svg-astronaut {
   width: 70px;
   height: 70px;
   margin: 25px 100px;
 }
 
-.list-text {
+.list__text {
   color: var(--primary-color-paragraph);
   font-size: 14px;
   line-height: 1.71;
@@ -283,11 +283,11 @@ img {
   width: 270px;
 }
 
-.list-heading:not(:last-child) {
+.list__heading:not(:last-child) {
   padding-right: 30px;
 }
 
-.heading {
+.list__title {
   color: var(--primary-color-title);
   font-weight: bold;
   font-size: 14px;
@@ -297,7 +297,7 @@ img {
   margin-bottom: 10px;
 }
 
-.photo-title {
+.photo__title {
   font-weight: bold;
   font-size: 36px;
   line-height: 1.16;
@@ -311,11 +311,11 @@ img {
   position: relative;
 }
 
-.margin-img:not(:last-child) {
+.photo__margin-img:not(:last-child) {
   margin-right: 30px;
 }
 
-.img-info {
+.photo__img-info {
   width: 370px;
   height: 70px;
   background-color: rgba(47, 48, 58, 0.8);
@@ -325,7 +325,7 @@ img {
   bottom: 94px;
 }
 
-.info-img {
+.photo__info-img {
   text-transform: uppercase;
   color: #ffffff;
   size: 14px;
